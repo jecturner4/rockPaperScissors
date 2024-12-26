@@ -1,3 +1,50 @@
 * {
   background-color: black;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 10vw;
+  justify-content: center;
+  padding-top: 10vh;
+}
+.userSelection {
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  min-width: max-content;
+  width: 20vw;
+}
+
+.userSelection:hover {
+  background-color: white;
+  color: black;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15vh;
+}
+
+#scoreHeaders {
+  display: flex;
+  flex-direction: row;
+  gap: 25vw;
+}
+
+#scoreOutput {
+  padding-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  gap: 25vw;
+  justify-content: center;
+}
+
+#winnerDeclaration {
+  padding-top: 20vh;
 }
